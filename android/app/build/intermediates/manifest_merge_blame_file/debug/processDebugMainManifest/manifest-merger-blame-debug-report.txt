@@ -1,0 +1,315 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.edu.ifes.patri"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Permissions -->
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:40:5-67
+13-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:40:22-64
+14
+15    <queries>
+15-->[:capacitor-camera] C:\Users\maria\Documents\ionic\PatriScan\node_modules\@capacitor\camera\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-11:15
+16        <intent>
+16-->[:capacitor-camera] C:\Users\maria\Documents\ionic\PatriScan\node_modules\@capacitor\camera\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-10:18
+17            <action android:name="android.media.action.IMAGE_CAPTURE" />
+17-->[:capacitor-camera] C:\Users\maria\Documents\ionic\PatriScan\node_modules\@capacitor\camera\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-73
+17-->[:capacitor-camera] C:\Users\maria\Documents\ionic\PatriScan\node_modules\@capacitor\camera\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:21-70
+18        </intent>
+19    </queries>
+20
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->[:capacitor-haptics] C:\Users\maria\Documents\ionic\PatriScan\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-66
+21-->[:capacitor-haptics] C:\Users\maria\Documents\ionic\PatriScan\node_modules\@capacitor\haptics\android\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:22-63
+22    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+22-->[androidx.biometric:biometric:1.1.0] C:\Users\maria\.gradle\caches\8.13\transforms\afa4545cb7eae26c6cefbd6ae0885ac7\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+22-->[androidx.biometric:biometric:1.1.0] C:\Users\maria\.gradle\caches\8.13\transforms\afa4545cb7eae26c6cefbd6ae0885ac7\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+23    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+23-->[androidx.biometric:biometric:1.1.0] C:\Users\maria\.gradle\caches\8.13\transforms\afa4545cb7eae26c6cefbd6ae0885ac7\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+23-->[androidx.biometric:biometric:1.1.0] C:\Users\maria\.gradle\caches\8.13\transforms\afa4545cb7eae26c6cefbd6ae0885ac7\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+24
+25    <permission
+25-->[androidx.core:core:1.15.0] C:\Users\maria\.gradle\caches\8.13\transforms\2205c1cd9e1107523c169e56e1402f57\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+26        android:name="br.edu.ifes.patri.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.15.0] C:\Users\maria\.gradle\caches\8.13\transforms\2205c1cd9e1107523c169e56e1402f57\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.15.0] C:\Users\maria\.gradle\caches\8.13\transforms\2205c1cd9e1107523c169e56e1402f57\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="br.edu.ifes.patri.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+29-->[androidx.core:core:1.15.0] C:\Users\maria\.gradle\caches\8.13\transforms\2205c1cd9e1107523c169e56e1402f57\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.15.0] C:\Users\maria\.gradle\caches\8.13\transforms\2205c1cd9e1107523c169e56e1402f57\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+30    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+31-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+32    <uses-permission android:name="android.permission.CAMERA" />
+32-->[io.ionic.libs:ionbarcode-android:1.2.0] C:\Users\maria\.gradle\caches\8.13\transforms\2407b500ab58200b4929d92e8368cd3d\transformed\ionbarcode-android-1.2.0\AndroidManifest.xml:7:5-65
+32-->[io.ionic.libs:ionbarcode-android:1.2.0] C:\Users\maria\.gradle\caches\8.13\transforms\2407b500ab58200b4929d92e8368cd3d\transformed\ionbarcode-android-1.2.0\AndroidManifest.xml:7:22-62
+33
+34    <application
+34-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:4:5-36:19
+35        android:allowBackup="true"
+35-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:5:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.15.0] C:\Users\maria\.gradle\caches\8.13\transforms\2205c1cd9e1107523c169e56e1402f57\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:6:9-43
+40        android:label="@string/app_name"
+40-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:7:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:8:9-54
+42        android:supportsRtl="true"
+42-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:9:9-35
+43        android:testOnly="true"
+44        android:theme="@style/AppTheme" >
+44-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:10:9-40
+45        <activity
+45-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:12:9-25:20
+46            android:name="br.edu.ifes.patri.MainActivity"
+46-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:14:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation"
+47-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:13:13-140
+48            android:exported="true"
+48-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:18:13-36
+49            android:label="@string/title_activity_main"
+49-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:15:13-56
+50            android:launchMode="singleTask"
+50-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:17:13-44
+51            android:theme="@style/AppTheme.NoActionBarLaunch" >
+51-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:16:13-62
+52            <intent-filter>
+52-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:20:13-23:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:21:17-69
+53-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:21:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:22:17-77
+55-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:22:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <provider
+60            android:name="androidx.core.content.FileProvider"
+60-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:28:13-62
+61            android:authorities="br.edu.ifes.patri.fileprovider"
+61-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:29:13-64
+62            android:exported="false"
+62-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:30:13-37
+63            android:grantUriPermissions="true" >
+63-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:31:13-47
+64            <meta-data
+64-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:32:13-34:64
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:33:17-67
+66                android:resource="@xml/file_paths" />
+66-->C:\Users\maria\Documents\ionic\PatriScan\android\app\src\main\AndroidManifest.xml:34:17-51
+67        </provider>
+68        <!--
+69        Service for holding metadata. Cannot be instantiated.
+70        Metadata will be merged from other manifests.
+71        -->
+72        <service
+72-->[androidx.camera:camera-core:1.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b70202d3d0eb7dcf54eb343a9c2ae36\transformed\camera-core-1.4.0\AndroidManifest.xml:29:9-33:78
+73            android:name="androidx.camera.core.impl.MetadataHolderService"
+73-->[androidx.camera:camera-core:1.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b70202d3d0eb7dcf54eb343a9c2ae36\transformed\camera-core-1.4.0\AndroidManifest.xml:30:13-75
+74            android:enabled="false"
+74-->[androidx.camera:camera-core:1.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b70202d3d0eb7dcf54eb343a9c2ae36\transformed\camera-core-1.4.0\AndroidManifest.xml:31:13-36
+75            android:exported="false" >
+75-->[androidx.camera:camera-core:1.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b70202d3d0eb7dcf54eb343a9c2ae36\transformed\camera-core-1.4.0\AndroidManifest.xml:32:13-37
+76            <meta-data
+76-->[androidx.camera:camera-camera2:1.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\d5787b675d9d14fb34e42bf6234e326a\transformed\camera-camera2-1.4.0\AndroidManifest.xml:30:13-32:89
+77                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+77-->[androidx.camera:camera-camera2:1.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\d5787b675d9d14fb34e42bf6234e326a\transformed\camera-camera2-1.4.0\AndroidManifest.xml:31:17-103
+78                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+78-->[androidx.camera:camera-camera2:1.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\d5787b675d9d14fb34e42bf6234e326a\transformed\camera-camera2-1.4.0\AndroidManifest.xml:32:17-86
+79        </service>
+80        <service
+80-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\e95c5ea4641d97a89b9ecedeac09bce8\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+81            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+81-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\e95c5ea4641d97a89b9ecedeac09bce8\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:10:13-91
+82            android:directBootAware="true"
+82-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+83            android:exported="false" >
+83-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\e95c5ea4641d97a89b9ecedeac09bce8\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:11:13-37
+84            <meta-data
+84-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\e95c5ea4641d97a89b9ecedeac09bce8\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+85                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+85-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\e95c5ea4641d97a89b9ecedeac09bce8\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\e95c5ea4641d97a89b9ecedeac09bce8\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+87            <meta-data
+87-->[com.google.mlkit:vision-common:17.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\7fa836de88f0e6d43d504b03a6d4826c\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+88                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+88-->[com.google.mlkit:vision-common:17.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\7fa836de88f0e6d43d504b03a6d4826c\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.mlkit:vision-common:17.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\7fa836de88f0e6d43d504b03a6d4826c\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+90            <meta-data
+90-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+91                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+91-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+93        </service>
+94
+95        <provider
+95-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+96            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+96-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+97            android:authorities="br.edu.ifes.patri.mlkitinitprovider"
+97-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+98            android:exported="false"
+98-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+99            android:initOrder="99" />
+99-->[com.google.mlkit:common:18.11.0] C:\Users\maria\.gradle\caches\8.13\transforms\229df2f2af6b7276e7c1f1ff3c261202\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b137ec704de94909f5bd359b7d4c232\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b137ec704de94909f5bd359b7d4c232\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b137ec704de94909f5bd359b7d4c232\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\maria\.gradle\caches\8.13\transforms\8b137ec704de94909f5bd359b7d4c232\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+105
+106        <uses-library
+106-->[androidx.window:window:1.0.0] C:\Users\maria\.gradle\caches\8.13\transforms\d901702d8bc78d891164840c61c82513\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+107            android:name="androidx.window.extensions"
+107-->[androidx.window:window:1.0.0] C:\Users\maria\.gradle\caches\8.13\transforms\d901702d8bc78d891164840c61c82513\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0] C:\Users\maria\.gradle\caches\8.13\transforms\d901702d8bc78d891164840c61c82513\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+109        <uses-library
+109-->[androidx.window:window:1.0.0] C:\Users\maria\.gradle\caches\8.13\transforms\d901702d8bc78d891164840c61c82513\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+110            android:name="androidx.window.sidecar"
+110-->[androidx.window:window:1.0.0] C:\Users\maria\.gradle\caches\8.13\transforms\d901702d8bc78d891164840c61c82513\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+111            android:required="false" />
+111-->[androidx.window:window:1.0.0] C:\Users\maria\.gradle\caches\8.13\transforms\d901702d8bc78d891164840c61c82513\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+112
+113        <provider
+113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\e3be835defab59ca96c1f9aab595c03c\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\e3be835defab59ca96c1f9aab595c03c\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+115            android:authorities="br.edu.ifes.patri.androidx-startup"
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\e3be835defab59ca96c1f9aab595c03c\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+116            android:exported="false" >
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\e3be835defab59ca96c1f9aab595c03c\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+117            <meta-data
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\e3be835defab59ca96c1f9aab595c03c\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\e3be835defab59ca96c1f9aab595c03c\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+119                android:value="androidx.startup" />
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maria\.gradle\caches\8.13\transforms\e3be835defab59ca96c1f9aab595c03c\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\maria\.gradle\caches\8.13\transforms\e0df52f4a3f89d84b1a577673c110f59\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+121-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\maria\.gradle\caches\8.13\transforms\e0df52f4a3f89d84b1a577673c110f59\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+122                android:value="androidx.startup" />
+122-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\maria\.gradle\caches\8.13\transforms\e0df52f4a3f89d84b1a577673c110f59\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+123            <meta-data
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+125                android:value="androidx.startup" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+126        </provider>
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\4cef68109167fcd36e35a2ed5e18c19c\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\4cef68109167fcd36e35a2ed5e18c19c\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\maria\.gradle\caches\8.13\transforms\4cef68109167fcd36e35a2ed5e18c19c\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+131
+132        <receiver
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+133            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+134            android:directBootAware="false"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+135            android:enabled="true"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+136            android:exported="true"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+137            android:permission="android.permission.DUMP" >
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+138            <intent-filter>
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+139                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+140            </intent-filter>
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+142                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+145                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+148                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\maria\.gradle\caches\8.13\transforms\c00d4bfdf36263ec4d0820dfad4ec2b8\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+149            </intent-filter>
+150        </receiver>
+151
+152        <service
+152-->[androidx.room:room-runtime:2.6.1] C:\Users\maria\.gradle\caches\8.13\transforms\2992d19adda2b92ae36707ceb8c7ff3f\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+153            android:name="androidx.room.MultiInstanceInvalidationService"
+153-->[androidx.room:room-runtime:2.6.1] C:\Users\maria\.gradle\caches\8.13\transforms\2992d19adda2b92ae36707ceb8c7ff3f\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+154            android:directBootAware="true"
+154-->[androidx.room:room-runtime:2.6.1] C:\Users\maria\.gradle\caches\8.13\transforms\2992d19adda2b92ae36707ceb8c7ff3f\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+155            android:exported="false" />
+155-->[androidx.room:room-runtime:2.6.1] C:\Users\maria\.gradle\caches\8.13\transforms\2992d19adda2b92ae36707ceb8c7ff3f\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+156        <service
+156-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+157            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+157-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+158            android:exported="false" >
+158-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+159            <meta-data
+159-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+160                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+160-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+161                android:value="cct" />
+161-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\maria\.gradle\caches\8.13\transforms\b16b63c685a187579e244645541db3fb\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+162        </service>
+163        <service
+163-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\maria\.gradle\caches\8.13\transforms\d3c4f9f672572c19b4cd055b7c6594fe\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+164            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+164-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\maria\.gradle\caches\8.13\transforms\d3c4f9f672572c19b4cd055b7c6594fe\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+165            android:exported="false"
+165-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\maria\.gradle\caches\8.13\transforms\d3c4f9f672572c19b4cd055b7c6594fe\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+166            android:permission="android.permission.BIND_JOB_SERVICE" >
+166-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\maria\.gradle\caches\8.13\transforms\d3c4f9f672572c19b4cd055b7c6594fe\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+167        </service>
+168
+169        <receiver
+169-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\maria\.gradle\caches\8.13\transforms\d3c4f9f672572c19b4cd055b7c6594fe\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+170            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+170-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\maria\.gradle\caches\8.13\transforms\d3c4f9f672572c19b4cd055b7c6594fe\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+171            android:exported="false" />
+171-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\maria\.gradle\caches\8.13\transforms\d3c4f9f672572c19b4cd055b7c6594fe\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+172
+173        <activity
+173-->[io.ionic.libs:ionbarcode-android:1.2.0] C:\Users\maria\.gradle\caches\8.13\transforms\2407b500ab58200b4929d92e8368cd3d\transformed\ionbarcode-android-1.2.0\AndroidManifest.xml:10:9-12:40
+174            android:name="com.outsystems.plugins.barcode.view.OSBARCScannerActivity"
+174-->[io.ionic.libs:ionbarcode-android:1.2.0] C:\Users\maria\.gradle\caches\8.13\transforms\2407b500ab58200b4929d92e8368cd3d\transformed\ionbarcode-android-1.2.0\AndroidManifest.xml:11:13-85
+175            android:exported="false" />
+175-->[io.ionic.libs:ionbarcode-android:1.2.0] C:\Users\maria\.gradle\caches\8.13\transforms\2407b500ab58200b4929d92e8368cd3d\transformed\ionbarcode-android-1.2.0\AndroidManifest.xml:12:13-37
+176    </application>
+177
+178</manifest>
