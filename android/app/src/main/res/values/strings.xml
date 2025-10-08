@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PatriScan</string>
+    <string name="title_activity_main">PatriScan</string>
+    <string name="package_name">br.edu.ifes.patri</string>
+    <string name="custom_url_scheme">br.edu.ifes.patri</string>
+</resources>

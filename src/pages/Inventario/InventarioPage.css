@@ -1,0 +1,47 @@
+.skeleton-item {
+  margin-bottom: 20px;
+}
+
+.skeleton-item ion-skeleton-text {
+  margin-bottom: 8px;
+}
+
+.item-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.floating-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.floating-button {
+  --border-radius: 50%;
+  width: 56px;
+  height: 56px;
+}
+
+/* Estilo para itens com status diferente */
+.item-inativo {
+  opacity: 0.7;
+}
+
+/* Melhorias de espaçamento */
+ion-select {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Ajustes para visualização em lista */
+ion-item {
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+ion-badge {
+  margin-right: 8px;
+}

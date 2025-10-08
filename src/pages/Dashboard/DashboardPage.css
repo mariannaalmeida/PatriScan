@@ -1,0 +1,46 @@
+/* Alinhamento do ícone com o texto*/
+
+.card-content {
+  height: 50vw;
+}
+.card-content ion-grid {
+  width: 100%;
+  padding: 0;
+}
+
+.card-content ion-row {
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  --padding-start: 0;
+  --padding-end: 0;
+  margin: 0;
+  height: auto;
+}
+
+/* Centralização do input */
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.centered-input {
+  text-align: center;
+  width: 100%;
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+/*Ajuste do card do input */
+.input-container ion-card {
+  width: 90%;
+  max-width: 31.25px;
+}
+
+/* Ajuste do botão */
+.ion-button {
+  --padding-top: 1rem;
+}
