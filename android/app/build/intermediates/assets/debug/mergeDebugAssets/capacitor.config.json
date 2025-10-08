@@ -1,0 +1,57 @@
+{
+	"appId": "br.edu.ifes.patri",
+	"appName": "PatriScan",
+	"webDir": "dist",
+	"plugins": {
+		"CapacitorSQLite": {
+			"iosKeychainPrefix": "PatriScan",
+			"androidIsEncryption": false
+		},
+		"BarcodeScanner": {
+			"preferredCamera": "back",
+			"formats": [
+				"QR_CODE",
+				"PDF_417",
+				"UPC_E",
+				"UPC_A",
+				"EAN_8",
+				"EAN_13",
+				"CODE_128",
+				"CODE_39",
+				"CODE_93",
+				"CODABAR",
+				"ITF",
+				"RSS14",
+				"RSS_EXPANDED",
+				"DATA_MATRIX",
+				"AZTEC",
+				"MAXICODE"
+			],
+			"android": {
+				"enableBarcodeScanner": true,
+				"showUsageExplanation": true,
+				"enableAutoFocus": true,
+				"enableTorchButton": true
+			},
+			"ios": {
+				"showViewfinder": true,
+				"enableAutoFocus": true,
+				"enableTorchButton": true
+			}
+		},
+		"Camera": {
+			"android": {
+				"enableZoom": true,
+				"allowBackground": false
+			}
+		}
+	},
+	"ios": {
+		"scheme": "PatriScan",
+		"preferredContentMode": "mobile"
+	},
+	"android": {
+		"allowMixedContent": true,
+		"appendUserAgent": "PatriScan/1.0"
+	}
+}

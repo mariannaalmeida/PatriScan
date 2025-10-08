@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-land-xxhdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-land-xxhdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-land-xhdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-land-xhdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-port-xxxhdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-port-xxxhdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-land-xxxhdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-land-xxxhdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-port-xxhdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-port-xxhdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-port-xhdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-port-xhdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/xml_file_paths.xml.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/xml/file_paths.xml"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/xml_config.xml.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/xml/config.xml"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/layout_activity_main.xml.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/layout/activity_main.xml"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-port-mdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-port-mdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-land-mdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-land-mdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable_ic_launcher_background.xml.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-land-hdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-land-hdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/drawable-port-hdpi_splash.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/drawable-port-hdpi/splash.png"
+    },
+    {
+        "merged": "br.edu.ifes.patri.app-debug-75:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "br.edu.ifes.patri.app-main-77:/mipmap-mdpi/ic_launcher_round.png"
+    }
+]
